@@ -9,6 +9,7 @@ def main():
     for resource in webAPI.resourceList:
         print(resource['href'])
     print(webAPI.accessToken)
+
 if "__main__":
     main()
 
